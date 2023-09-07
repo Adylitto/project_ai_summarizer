@@ -78,9 +78,12 @@
 .black_btn {
   @apply rounded-full border border-black bg-black py-1.5 px-5 text-sm text-white transition-all hover:bg-white hover:text-black;
 }
+.blue_btn {
+  @apply rounded border border-blue-900 bg-blue-900 py-1.5 px-5 text-sm text-white transition-all hover:bg-white hover:text-blue-900;
+}
 
 .head_text {
-  @apply mt-5 text-5xl font-extrabold leading-[1.15] text-black sm:text-6xl text-center;
+  @apply mt-20 text-5xl font-extrabold leading-[1.15] text-black sm:text-6xl text-center;
 }
 
 .orange_gradient {
